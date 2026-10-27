@@ -1,0 +1,8 @@
+title: Keelwright
+description: Small, focused apps for Jira and the tools teams already use.
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
