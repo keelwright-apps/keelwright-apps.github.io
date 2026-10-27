@@ -33,8 +33,8 @@ Security tab of the app's Atlassian Marketplace listing.
 | --- | --- | --- |
 | Space IDs, work type IDs, role IDs, group IDs | Yes | Forge storage and space property, in your site |
 | Atlassian account IDs named in rules or on the bypass list | Yes | Forge storage and space property, in your site; reported weekly to Atlassian's personal data reporting service, and removed once the account is closed |
-| Current user's groups and space roles | No (read per request) | — |
-| Work item content (summaries, descriptions, comments, attachments) | Never accessed | — |
+| Current user's groups and space roles | No (read per request) | Not stored |
+| Work item content (summaries, descriptions, comments, attachments) | Never accessed | Not stored |
 
 ## Security questionnaire answers
 

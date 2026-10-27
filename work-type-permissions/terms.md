@@ -24,10 +24,9 @@ the Atlassian Marketplace terms also apply to your purchase and billing.
 4. **Support and updates.** We provide support by email at keelwright.apps@gmail.com on
    business days and may update the app from time to time. Updates are part of
    your subscription.
-5. **Fees.** The Marketplace listing shows whether the app is free or paid.
-   Fees, trials, renewals and refunds are handled by Atlassian under the
-   Atlassian Marketplace terms. If we start charging for the app while it is
-   free, we will announce it on the listing at least 30 days in advance.
+5. **Fees.** The Marketplace listing shows the current price. Fees, trials,
+   renewals and refunds are handled by Atlassian under the Atlassian
+   Marketplace terms.
 6. **No warranty.** The app is provided "as is". To the extent allowed by law,
    we disclaim all warranties, including fitness for a particular purpose and
    that the app will be error-free or uninterrupted.

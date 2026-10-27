@@ -4,8 +4,8 @@ title: Keelwright
 
 # Keelwright
 
-Keelwright builds small, focused apps that fill gaps in the tools teams
-already use.
+Keelwright makes Jira Cloud apps for admin controls that Jira doesn't
+have built in.
 
 ## Apps
 
@@ -14,4 +14,5 @@ already use.
 
 ## Contact
 
-Email **keelwright.apps@gmail.com**. We answer on business days.
+Email **keelwright.apps@gmail.com**. First reply within 2 business days, Monday to
+Friday.

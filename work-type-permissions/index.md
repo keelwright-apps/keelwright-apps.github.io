@@ -4,6 +4,8 @@ title: Work Type Permissions for Jira
 
 # Work Type Permissions for Jira
 
+Last updated: 27 October 2026
+
 Jira Cloud has one "Create work items" permission for every work type (issue
 type) in a space. Work Type Permissions lets you decide, per space and per
 work type, who can create it and who can change existing work items into it.
@@ -17,12 +19,13 @@ work type, who can create it and who can change existing work items into it.
 - [Limits](#limits)
 - [FAQ](#faq)
 - [Uninstalling](#uninstalling)
+- [Release notes](release-notes.md)
 - [Support](support.md) · [Privacy policy](privacy.md) · [Terms](terms.md) · [Data and security](security.md)
 
 ## Get started
 
 1. Install the app from the Atlassian Marketplace (Jira admin).
-2. Open a space, then **Space settings → Work type permissions**.
+2. Open a space, select **Space settings**, then **Work type permissions**.
 3. Click **Edit** next to a work type, choose who can create it, and click **Apply**.
 4. Click **Save rules**. The create dialog uses the rules straight away.
 5. Optional but recommended: [add the validator](#block-every-way-of-creating-work) to the Create transition.
@@ -59,7 +62,7 @@ also be created through the REST API, CSV imports, email and some quick-create
 fields. To block those too, add the app's validator to the Create transition
 of each workflow the space uses:
 
-1. **Space settings → Workflows**, then edit the workflow.
+1. Select **Space settings**, then **Workflows**, and edit the workflow.
 2. Select the **Create** transition and add a rule (validator).
 3. Choose **Work type permission check** and save. Publish the workflow.
 
@@ -69,8 +72,9 @@ using that workflow is covered (spaces without rules are never blocked).
 
 ## Settings for Jira admins
 
-**Apps → Manage apps → Work Type Permissions → Configure** (or the app's admin
-page) has the settings that apply to every space:
+The app's admin page has the settings that apply to every space. To open it,
+select **Settings** (the cog), then **Apps**, then **Manage apps**. Find
+**Work Type Permissions** and select **Configure**.
 
 - **Let space admins manage the rules for their own spaces.** On by default.
   Turn it off to keep rule changes to Jira admins; space admins can still view
@@ -124,9 +128,10 @@ in this space. Ask a space admin if you need access."
 in the rule. Add your admin group to the bypass list if admins should never be
 restricted.
 
-**Is the app free?** The Marketplace listing shows the current price. If a
-paid subscription ends, rules stay saved but stop being enforced within a
-day. They come back when the subscription is active again.
+**What does it cost?** See the Pricing tab on the Marketplace listing. Sites
+with up to 10 users use it free. If a paid subscription ends, rules stay saved
+but stop being enforced within a day. They come back when the subscription is
+active again.
 
 **Does any data leave Atlassian?** No. The app runs on Atlassian's Forge
 platform and has no external connections ("Runs on Atlassian").

@@ -1,5 +1,5 @@
 title: Keelwright
-description: Small, focused apps for Jira and the tools teams already use.
+description: Jira Cloud apps for admin controls that Jira doesn't have built in.
 theme: jekyll-theme-primer
 plugins:
   - jekyll-relative-links

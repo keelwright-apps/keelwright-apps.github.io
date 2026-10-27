@@ -4,8 +4,8 @@ title: Support – Work Type Permissions for Jira
 
 # Support
 
-Email **keelwright.apps@gmail.com**. We answer on business days, usually within two
-business days.
+Email **keelwright.apps@gmail.com**. First reply within 2 business days, Monday to
+Friday.
 
 To help us help you quickly, include:
 
