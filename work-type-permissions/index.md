@@ -81,6 +81,10 @@ page) has the settings that apply to every space:
 - **Spaces with rules** lists every space that has rules and whether they are on.
 - **Health** shows the last check. The app re-checks every space once a day
   and restores rules that were changed outside the app.
+- **Closed accounts.** Once a week the app asks Atlassian which of the people
+  named in rules or on the bypass list have closed their Atlassian account, and
+  removes them. A rule never opens up because of this: it stays limited to the
+  groups and roles left in it.
 
 ## Check a person
 
